@@ -54,15 +54,16 @@ customer_support_chatbot_project/
 git clone https://github.com/your-username/customer-support-chatbot.git
 cd customer-support-chatbot
 ```
-
-
 2. Backend Setup (Flask + ML)
+```
 cd backend
 pip install flask flask-cors scikit-learn pandas
 python app.py
 Runs at: http://localhost:5001
+```
 
-3. Frontend Setup (React)
+4. Frontend Setup (React)
+```
 cd frontend
 npm install
 npm start
