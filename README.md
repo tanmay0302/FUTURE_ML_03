@@ -52,3 +52,6 @@ customer_support_chatbot_project/
 git clone https://github.com/your-username/customer-support-chatbot.git
 cd customer-support-chatbot
 
+cd backend
+pip install flask flask-cors scikit-learn pandas
+python app.py
