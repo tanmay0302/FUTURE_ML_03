@@ -50,7 +50,7 @@ customer_support_chatbot_project/
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/your-username/customer-support-chatbot.git
 cd customer-support-chatbot
 ```
@@ -62,14 +62,16 @@ python app.py
 Runs at: http://localhost:5001
 ```
 
-4. Frontend Setup (React)
+3. Frontend Setup (React)
 ```
 cd frontend
 npm install
 npm start
 Runs at: http://localhost:3000
+```
 
 🚀 Future Improvements
+```
 Add LLM/GPT-based fallback for uncertain replies
 
 Save trained models (joblib)
