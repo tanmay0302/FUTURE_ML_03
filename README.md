@@ -48,7 +48,7 @@ customer_support_chatbot_project/
 ```bash
 git clone https://github.com/your-username/customer-support-chatbot.git
 cd customer-support-chatbot
-2. Backend Setup (Flask + ML)
+## 2. Backend Setup (Flask + ML)
 bash
 Copy
 Edit
@@ -57,7 +57,7 @@ pip install flask flask-cors scikit-learn pandas
 python app.py
 Runs at: http://localhost:5001
 
-3. Frontend Setup (React)
+## 3. Frontend Setup (React)
 bash
 Copy
 Edit
@@ -69,7 +69,7 @@ Runs at: http://localhost:3000
 
 .
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 Add LLM/GPT-based fallback for uncertain replies
 
 Save trained models (joblib)
