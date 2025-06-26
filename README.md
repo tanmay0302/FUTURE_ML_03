@@ -44,35 +44,36 @@ customer_support_chatbot_project/
 
 ---
 
+---
+
 ## 🛠️ Running Locally
 
 ### 1. Clone the repository
 
-👆 Everything after ` ```bash ` will be treated as code (not markdown), **until you close it**.
-
----
-
-### ✅ Correct version:
-
-```markdown
 ```bash
 git clone https://github.com/your-username/customer-support-chatbot.git
 cd customer-support-chatbot
+```
+
 
 2. Backend Setup (Flask + ML)
-bash
-Copy
-Edit
 cd backend
 pip install flask flask-cors scikit-learn pandas
 python app.py
+Runs at: http://localhost:5001
 
----
+3. Frontend Setup (React)
+cd frontend
+npm install
+npm start
+Runs at: http://localhost:3000
 
-### ✅ Rule of Thumb
+🚀 Future Improvements
+Add LLM/GPT-based fallback for uncertain replies
 
-> Always use triple backticks **only** to wrap code blocks, and never mix them with markdown text or headings.
+Save trained models (joblib)
 
----
+Add session memory for multi-turn chat
 
-Let me know if you'd like me to rewrite the full README.md with all fixes applied — copy-paste ready.
+Deployment to cloud platforms
+
