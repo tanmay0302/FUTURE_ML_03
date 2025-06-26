@@ -48,10 +48,31 @@ customer_support_chatbot_project/
 
 ### 1. Clone the repository
 
+👆 Everything after ` ```bash ` will be treated as code (not markdown), **until you close it**.
+
+---
+
+### ✅ Correct version:
+
+```markdown
 ```bash
 git clone https://github.com/your-username/customer-support-chatbot.git
 cd customer-support-chatbot
 
+2. Backend Setup (Flask + ML)
+bash
+Copy
+Edit
 cd backend
 pip install flask flask-cors scikit-learn pandas
 python app.py
+
+---
+
+### ✅ Rule of Thumb
+
+> Always use triple backticks **only** to wrap code blocks, and never mix them with markdown text or headings.
+
+---
+
+Let me know if you'd like me to rewrite the full README.md with all fixes applied — copy-paste ready.
